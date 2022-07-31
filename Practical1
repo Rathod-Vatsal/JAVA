@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class p1
+{
+    public static void main(String[] args) 
+    {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter String: ");
+
+        String A = scan.nextLine();
+        startOZ(A);
+    }
+    static void startOZ(String a)
+    {
+        if(a.charAt(0)=='O' || a.charAt(0)=='o')
+        {
+            System.out.println(a.charAt(0));
+        }
+        
+        if(a.charAt(1)=='Z' || a.charAt(1)=='z')
+        {
+            System.out.println(a.charAt(1));
+        }
+
+    }
+}
